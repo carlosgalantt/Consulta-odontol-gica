@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenho conta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kanit:ital,wght@1,900&family=Lobster&family=Orbitron:wght@900&family=Prompt:wght@500&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-image: url('https://images.unsplash.com/photo-1593022356769-11f762e25ed9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-y: -200px;
+        }
+        main{
+            background-color: black;
+            opacity: 0.8;
+            width: 450px;
+            height: 470px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 110px;
+            color: white;
+            border-radius: 20px;
+        }
+        .campos{
+            padding-top: 70px;
+            text-align: center;
+        }
+        input{
+            text-align: center;
+            width: 320px;
+            height: 34px;
+            border-radius: 15px;
+            font-family: 'Prompt', sans-serif;
+        }
+        label{
+            font-size: 30px;
+            font-family: 'Prompt', sans-serif;
+        }
+        placeholder{
+            font-family: 'Prompt', sans-serif;
+            font-weight: bold;
+        }
+        button{
+            padding: 15px;
+            width: 100px;
+            font-family: 'Prompt', sans-serif;
+            border-radius: 15px;
+            font-size:20px ;
+        }
+        button:hover{
+            background-color: rgb(202, 202, 198);
+            color: rgb(70, 66, 66);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <main>
+      <div class="campos">
+        <label>Usuário</label> <br><br>
+        <input type="text" placeholder="Digite o seu nome de usuário" name="nome"><br><br><br>
+        <label>Senha</label> <br><br>
+        <input type="password" placeholder="Digite a sua senha" name="nome"><br>
+        <br><br>
+        <button onclick="enviar()">login</button>
+    </div>
+    </main>
+</body>
+</html>
